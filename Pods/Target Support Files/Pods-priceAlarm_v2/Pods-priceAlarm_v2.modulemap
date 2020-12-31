@@ -1,0 +1,6 @@
+framework module Pods_priceAlarm_v2 {
+  umbrella header "Pods-priceAlarm_v2-umbrella.h"
+
+  export *
+  module * { export * }
+}
