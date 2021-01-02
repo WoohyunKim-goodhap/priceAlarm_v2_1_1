@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         GIDSignIn.sharedInstance()?.presentingViewController = self
         
 // 아래 코드들을 별도 뷰로 옮기고 UID를 setchild를 사용해 각 key, value를 저장하기
+// 화면부터 넘어가도록 하고 child 생성?
 //        let button = UIButton(frame: CGRect(x: 20, y: 200, width: view.frame.size.width-40, height: 50))
 //        button.setTitle("Add Entry", for: .normal)
 //        button.setTitleColor(.white, for: .normal)
