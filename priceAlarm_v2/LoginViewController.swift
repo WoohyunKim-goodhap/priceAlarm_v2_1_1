@@ -23,6 +23,8 @@
 
 
 import UIKit
+import FirebaseMessaging
+import FirebaseCore
 import FirebaseDatabase
 import Firebase
 import GoogleSignIn
