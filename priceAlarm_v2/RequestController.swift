@@ -17,18 +17,25 @@ class RequestController: UIViewController {
     @IBOutlet var priceField: UITextField!
     
     let db = Database.database().reference()
+    
+//    override func viewWillAppear(_ animated: Bool) {
+////        db.child("token\(userTokens[0])").setValue(["country": "test)", "game": "testgaem", "price": "100000"])
+//    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+  
+        
     }
     
     @IBAction func sendClicked(_ sender: Any) {
-        guard let userID = Auth.auth().currentUser?.uid else { return }
-        
-        print("\(userID)")
+//        guard let userID = Auth.auth().currentUser?.uid else { return }
+//
+//        print("\(userID)")
 
-        db.child("user\(userID)").setValue(["country": "\(countryField.text)", "game": "\(gameField.text)", "price": "\(priceField.text)"])
+        db.child("token\(userTokens[0])").setValue(["country": "test2)", "game": "testgaem2", "price": "100000"])
+
     }
     
     

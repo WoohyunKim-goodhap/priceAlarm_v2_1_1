@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5F84E9D025A0493400158AAA /* RequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F84E9CF25A0493400158AAA /* RequestController.swift */; };
+		5F9CA4DB25CE70B600E5C7BB /* Userdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9CA4DA25CE70B600E5C7BB /* Userdata.swift */; };
 		5FB70938259CC14A00903213 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB70937259CC14A00903213 /* AppDelegate.swift */; };
 		5FB7093A259CC14A00903213 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB70939259CC14A00903213 /* SceneDelegate.swift */; };
 		5FB7093C259CC14A00903213 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB7093B259CC14A00903213 /* LoginViewController.swift */; };
@@ -22,6 +23,7 @@
 		505719CA0AE4BF75F4179FC5 /* Pods_priceAlarm_v2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_priceAlarm_v2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F84E9CF25A0493400158AAA /* RequestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestController.swift; sourceTree = "<group>"; };
 		5F84E9D325A17DA100158AAA /* priceAlarm_v2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = priceAlarm_v2.entitlements; sourceTree = "<group>"; };
+		5F9CA4DA25CE70B600E5C7BB /* Userdata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Userdata.swift; sourceTree = "<group>"; };
 		5FB70934259CC14A00903213 /* priceAlarm_v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = priceAlarm_v2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB70937259CC14A00903213 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FB70939259CC14A00903213 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				5FB70939259CC14A00903213 /* SceneDelegate.swift */,
 				5FB7093B259CC14A00903213 /* LoginViewController.swift */,
 				5F84E9CF25A0493400158AAA /* RequestController.swift */,
+				5F9CA4DA25CE70B600E5C7BB /* Userdata.swift */,
 				5FB7093D259CC14A00903213 /* Main.storyboard */,
 				5FB70940259CC14C00903213 /* Assets.xcassets */,
 				5FB70961259CC52100903213 /* GoogleService-Info.plist */,
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FB7093C259CC14A00903213 /* LoginViewController.swift in Sources */,
+				5F9CA4DB25CE70B600E5C7BB /* Userdata.swift in Sources */,
 				5FB70938259CC14A00903213 /* AppDelegate.swift in Sources */,
 				5FB7093A259CC14A00903213 /* SceneDelegate.swift in Sources */,
 				5F84E9D025A0493400158AAA /* RequestController.swift in Sources */,
